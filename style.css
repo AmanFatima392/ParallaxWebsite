@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* First Page */
+.page1 {
+    background: url("img/64819cf7a87cbf026355328bdd606da7.jpg") no-repeat center center/cover fixed;
+    min-height: 100%;
+}
+
+.flex_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Second Page */
+
+.page2 {
+    background: url("img/7f7374bece71c3d7c4ddaeee17868b76.jpg") no-repeat center center/cover fixed;
+    min-height: 800px;
+    position: relative;
+}
+.section1{
+    background-color: white;
+    word-spacing: 5px;   
+    padding: 50px;
+    line-height: 25px;
+    position: absolute;
+    top: 0px;
+
+}
+.sec_heading{
+    font-weight: bold;
+    color: rgba(49, 48, 48);
+    margin-bottom: 20px;
+}
+.set_position{
+    position: relative;
+    top: 200px;     
+    padding: 0 20px;
+    margin: 50px 0;    
+}
+
+/* Third page */
+.page3{
+    background: url("img/widescreen-nature-high-resolution-1920x1080-wallpaper-preview.jpg") no-repeat center center/cover fixed;
+    min-height: 800px;
+    position: relative;
+}
+.section2{
+    background-color:rgb(83, 75, 75);
+    color: white;
+    word-spacing: 5px;    
+    padding: 50px;
+    line-height: 25px;
+    position: absolute;
+    top: 0px;
+}
+#heading_txt2{
+    width: 600px;
+}
+      /* Last Page */
+
+      .page4{
+        background: url("img/pngtree-nature-wallpapers-picture-image_2778910.jpg") no-repeat center center/cover fixed;
+        min-height: 800px;
+        position: relative;
+      }
+
+
+/* Utiliy Classes */
+.heading_txt {
+    height: 40px;
+    width: 350px;
+    background-color: rgba(49, 48, 48);
+    color: white;
+}
+
+.center {
+    text-align: center;
+    letter-spacing: 2px;
+}
